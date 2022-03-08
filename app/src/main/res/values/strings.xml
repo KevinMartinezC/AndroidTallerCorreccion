@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">AndroidTaller1</string>
+    <string name="Titulo">Ejercicios Taller 1</string>
+    <string name="coeficiente_cuadratico">Ingrese coeficiente cuadratico</string>
+    <string name="Cuadratico">Ecuación Cuadratica</string>
+    <string name="coeficiente_lineal">Ingrese coeficiente lineal</string>
+    <string name="constante">Ingrese constante</string>
+    <string name="calcular">Calcular</string>
+    <string name="raices_imaginarias">La ecuación cuadratica tiene raices imaginarias</string>
+    <string name="resultado">Resultado</string>
+    <string name="validar_coeficiente">El coeficiente cuadratico debe ser diferente de 0</string>
+    <string name="voto">Ingrese su voto a su candidato preferido</string>
+    <string name="votaciones">Votaciones</string>
+    <string name="Descripcion">Ingrese el dato del empleado</string>
+    <string name="Nombre">Nombre</string>
+    <string name="Apellido">Apellido</string>
+    <string name="Horas">Horas</string>
+    <string name="Calcular">Calcular</string>
+    <string name="Cargo">Seleccione el cargo:</string>
+    <string name="Nombre_Descripcion">Ingrese su nombre:</string>
+    <string name="Apellido_Descripcion">Ingrese su apellido:</string>
+    <string name="Horas_Descripcion">Ingrese las horas:</string>
+    <string name="Datos_Empleado">Datos de los empleados</string>
+    <string name="Nombre_Empleado">Nombre Empleado</string>
+</resources>

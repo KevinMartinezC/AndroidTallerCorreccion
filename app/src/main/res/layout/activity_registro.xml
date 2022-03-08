@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".RegistroActivity">
+
+    <TextView
+        android:id="@+id/textregistrarse"
+        android:layout_marginTop="80dp"
+        android:textColor="@color/accent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registrarse"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        />
+
+    <EditText
+        android:id="@+id/nombreUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textregistrarse"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:hint="Nombre Usuario"
+        android:minHeight="48dp"
+        />
+
+    <EditText
+        android:id="@+id/contrasena"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nombreUsuario"
+        android:inputType="textPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20sp"
+        android:hint="Contraseña"
+        android:minHeight="48dp"
+        />
+
+    <EditText
+        android:padding="6dp"
+        android:id="@+id/confirmar_contrasena"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/contrasena"
+        android:inputType="textPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:hint="Confirmar Contraseña"
+        android:minHeight="48dp"
+        />
+
+    <Button
+        android:id="@+id/btn_registrarse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/confirmar_contrasena"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/primary"
+        android:text="Registrarse"
+        android:textAllCaps="false" />
+
+    <TextView
+        android:id="@+id/txt_tieneCuenta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_registrarse"
+        android:layout_marginTop="80dp"
+        android:text="¿Ya tienes una Cuenta?"
+        android:textSize="16dp"
+        android:layout_marginStart="40dp"
+
+        />
+
+    <TextView
+        android:id="@+id/inicioseccion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_registrarse"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="80dp"
+        android:layout_toEndOf="@id/txt_tieneCuenta"
+        android:text="Iniciar Sesión"
+        android:textColor="@color/accent"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+</RelativeLayout>

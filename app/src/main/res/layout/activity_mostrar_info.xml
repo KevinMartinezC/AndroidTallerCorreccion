@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/Tv_DatosEmpleado"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="25dp"
+                android:textStyle="bold"
+                android:textColor="@color/accent"
+                android:layout_marginBottom="25dp"
+                android:gravity="center"
+                android:text="@string/Datos_Empleado"
+                android:textSize="25dp"
+                />
+            <TextView
+                android:id="@+id/Tv_NumeroEmpleado"
+                android:layout_width="376dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:text="Empleado 1"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:textSize="25dp" />
+            <TextView
+                android:id="@+id/Tv_NombreEmpleado"
+                android:layout_width="376dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:textColor="@color/secondary_text"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/Tv_HorasTrabajadas"
+                android:layout_width="376dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:textColor="@color/secondary_text"
+                android:textSize="20dp" />
+            <TextView
+                android:id="@+id/Tv_salario"
+                android:layout_width="376dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:textColor="@color/secondary_text"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/Tv_DeduccionISSS"
+                android:layout_width="376dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:textColor="@color/secondary_text"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/Tv_DeduccionAFP"
+                android:layout_width="376dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:textColor="@color/secondary_text"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/Tv_DeduccionRENTA"
+                android:layout_width="376dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:textColor="@color/secondary_text"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/Tv_SueldoConDeducciones"
+                android:layout_width="376dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:textColor="@color/secondary_text"
+                android:textSize="20dp" />
+            <TextView
+                android:id="@+id/Tv_MensajeBono"
+                android:layout_width="376dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+            <TextView
+                android:id="@+id/Tv_SueldoFinal"
+                android:layout_width="376dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/Tv_NumeroEmpleado2"
+                android:layout_width="376dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+
+                android:text="Empleado 2"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:textSize="20dp" />
+            <TextView
+                android:id="@+id/Tv_NombreEmpleado2"
+                android:layout_width="376dp"
+                android:textColor="@color/secondary_text"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/Tv_HorasTrabajadas2"
+                android:layout_width="376dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:textColor="@color/secondary_text"
+                android:textSize="20dp" />
+            <TextView
+                android:id="@+id/Tv_salario2"
+                android:layout_width="376dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:textColor="@color/secondary_text"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/Tv_DeduccionISSS2"
+                android:layout_width="376dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:textColor="@color/secondary_text"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/Tv_DeduccionAFP2"
+                android:layout_width="376dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/secondary_text"
+                android:layout_margin="5dp"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/Tv_DeduccionRENTA2"
+                android:layout_width="376dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/secondary_text"
+                android:layout_margin="5dp"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/Tv_SueldoConDeducciones2"
+                android:layout_width="376dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/secondary_text"
+                android:layout_margin="5dp"
+                android:textSize="20dp" />
+            <TextView
+                android:id="@+id/Tv_MensajeBono2"
+                android:layout_width="376dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:layout_margin="5dp"
+                android:textSize="20dp" />
+            <TextView
+                android:id="@+id/Tv_SueldoFinal2"
+                android:layout_width="376dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+            <TextView
+                android:id="@+id/Tv_NumeroEmpleado3"
+                android:layout_width="376dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:text="Empleado 3"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:textSize="20dp" />
+            <TextView
+                android:id="@+id/Tv_NombreEmpleado3"
+                android:layout_width="376dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:textColor="@color/secondary_text"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/Tv_HorasTrabajadas3"
+                android:layout_width="376dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:textColor="@color/secondary_text"
+                android:textSize="20dp" />
+            <TextView
+                android:id="@+id/Tv_salario3"
+                android:layout_width="376dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:textColor="@color/secondary_text"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/Tv_DeduccionISSS3"
+                android:layout_width="376dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:textColor="@color/secondary_text"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/Tv_DeduccionAFP3"
+                android:layout_width="376dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/secondary_text"
+                android:layout_margin="5dp"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/Tv_DeduccionRENTA3"
+                android:layout_width="376dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:textColor="@color/secondary_text"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/Tv_SueldoConDeducciones3"
+                android:layout_width="376dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:textColor="@color/secondary_text"
+                android:textSize="20dp" />
+            <TextView
+                android:id="@+id/Tv_MensajeBono3"
+                android:layout_width="376dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:textColor="@color/black"
+
+                android:textSize="20dp" />
+            <TextView
+                android:id="@+id/Tv_SueldoFinal3"
+                android:layout_width="376dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_margin="5dp"
+                android:textSize="20dp" />
+            <TextView
+                android:id="@+id/Tv_SalarioMAX"
+                android:layout_width="376dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:textStyle="bold"
+                android:textColor="@color/secondary_text"
+                android:textSize="20dp" />
+            <TextView
+                android:id="@+id/Tv_SalarioMIN"
+                android:layout_width="376dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:textStyle="bold"
+                android:textColor="@color/secondary_text"
+                android:textSize="20dp" />
+            <TextView
+                android:id="@+id/Tv_Ganancias300"
+                android:layout_width="376dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:textStyle="bold"
+                android:textColor="@color/secondary_text"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/btnsalir"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:backgroundTint="@color/primary_dark"
+
+                android:text="Regresar a Inicio">
+
+            </Button>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/AndroidTaller1/app/src/main/res/layout/activity_main.xml" value="0.3484375" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/AndroidTaller1/app/src/main/res/layout/activity_registro.xml" value="0.3625" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Taller1DSA/AndroidTaller1/app/src/main/res/layout/activity_ejercicio1.xml" value="0.18541666666666667" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Taller1DSA/AndroidTaller1/app/src/main/res/layout/activity_ejercicio2.xml" value="0.18541666666666667" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Taller1DSA/AndroidTaller1/app/src/main/res/layout/activity_inicio.xml" value="0.33" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Taller1DSA/AndroidTaller1/app/src/main/res/layout/activity_mostrar_info.xml" value="0.18541666666666667" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Taller1DSA/AndroidTaller1/app/src/main/res/layout/activity_registro.xml" value="0.18541666666666667" />
+        <entry key="..\:/Users/ernes/AndroidStudioProjects/AndroidTaller1/app/src/main/res/drawable/button.xml" value="0.1765" />
+        <entry key="..\:/Users/ernes/AndroidStudioProjects/AndroidTaller1/app/src/main/res/drawable/editbackground.xml" value="0.103" />
+        <entry key="..\:/Users/ernes/AndroidStudioProjects/AndroidTaller1/app/src/main/res/drawable/forget.xml" value="0.1765" />
+        <entry key="..\:/Users/ernes/AndroidStudioProjects/AndroidTaller1/app/src/main/res/layout/activity_ejercicio1.xml" value="0.22327898550724637" />
+        <entry key="..\:/Users/ernes/AndroidStudioProjects/AndroidTaller1/app/src/main/res/layout/activity_ejercicio2.xml" value="0.22327898550724637" />
+        <entry key="..\:/Users/ernes/AndroidStudioProjects/AndroidTaller1/app/src/main/res/layout/activity_ejercicio3.xml" value="0.176" />
+        <entry key="..\:/Users/ernes/AndroidStudioProjects/AndroidTaller1/app/src/main/res/layout/activity_inicio.xml" value="0.2" />
+        <entry key="..\:/Users/ernes/AndroidStudioProjects/AndroidTaller1/app/src/main/res/layout/activity_main.xml" value="0.22327898550724637" />
+        <entry key="..\:/Users/ernes/AndroidStudioProjects/AndroidTaller1/app/src/main/res/layout/activity_mostrar_info.xml" value="0.2" />
+        <entry key="..\:/Users/ernes/AndroidStudioProjects/AndroidTaller1/app/src/main/res/layout/activity_registro.xml" value="0.22327898550724637" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
